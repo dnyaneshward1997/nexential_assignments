@@ -1,0 +1,28 @@
+Q1. Singleton design pattern
+
+
+Q2. Prototype Design Pattern
+
+
+Q3. Builder Design Pattern
+
+
+Q4. Adapter Pattern
+
+
+
+Q5. Bridge Pattern
+
+
+Q6. Composite Pattern
+
+
+
+Q7. Decorator Pattern
+
+
+Q8. Flyweight Pattern
+
+
+
+Q9. Proxy Pattern

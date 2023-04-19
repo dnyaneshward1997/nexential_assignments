@@ -1,0 +1,63 @@
+Q1. create fruits array list. Sort List of String objects in Ascending using Comparator, compareTo, collect
+
+
+Q2. class Employee with 3 fields
+String name;
+Integer salary;
+Date JoiningDate;
+
+
+"ank", 2000, 2016 - 1900, 11, 14 
+ "dav", 500, 2016 - 1900, 11, 23 
+"ank", 1000, 2016 - 1900, 11, 22 
+ "sam", 9000, 2016 - 1900, 11, 29 
+ "ank", 1000, 2016 - 1900, 11, 19
+
+a) sort Employee on basis of Name, Salary and joining Date
+b) sort Employee in reverse order on basis of Name, Salary and joining Date
+
+
+Q3. public class Employee with fields long id; String name; int salary; String department;
+data: 
+101, "Manish", 5000, "IT" 
+109, "Atul", 3000, "HR"             
+111, "Santosh", 4400, "IT"                
+109, "Rupendra", 3200, "FIN"
+
+
+a) Find the maximum salary.
+b) Filter the employee on the basis of maximum salary.
+
+c) Calculate sum of Employee salaries with Stream reduce method
+d) Calculate the Sum by Dept
+
+
+
+Q4.  collection of a list of people.public class Person {
+  String name;
+  Integer age;
+  Gender gender;
+  Country country;  
+}
+Data:
+new Person("John", 50, Gender.MALE, canada),
+new Person("May", 12, Gender.FEMALE, france),
+new Person("Tiff", 23, Gender.NON_BINARY, uk),
+new Person("Azul", 15, Gender.FEMALE, france),
+new Person("Samantha", 67, Gender.FEMALE, canada)
+new Person("John", 50, Gender.MALE, canada),
+new Person("May", 12, Gender.FEMALE, france),
+new Person("Tiff", 23, Gender.NON_BINARY, uk),
+new Person("Azul", 15, Gender.FEMALE, france),
+new Person("Samantha", 67, Gender.FEMALE, canada)
+
+Display the results of every exercise in the console.
+Convert names to uppercase
+Obtain people's names with length less than 4
+Obtain the age of the oldest person
+Obtain the sum of all ages
+Create a people summary (average age, min age, max age, amount of people)
+Group people by age status
+Group people by nationality
+Join people's names separated by underscore
+Obtain Canadian males

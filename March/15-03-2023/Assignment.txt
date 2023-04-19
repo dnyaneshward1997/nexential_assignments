@@ -1,0 +1,8 @@
+Q1. Chain Of Responsibility Pattern
+Q2. Command Pattern
+Q3. Mediator Pattern
+Q4. Memento Pattern
+Q5. Observer Pattern
+Q6. State Pattern
+Q7. Strategy Pattern
+Q8. Template Pattern

@@ -1,0 +1,128 @@
+ Let’s try to solve some of the real time queries faced in the Employee Management
+System using Java 8 features.
+ We will be using following Employee class and employeeList as example while
+solving the queries.
+
+class Employee {
+    int id;
+    String name;
+    int age;
+    String gender;
+    String department;
+    int yearOfJoining;
+    double salary;
+}
+1. 111, &quot;Jiya Brein&quot;, 32, &quot;Female&quot;, &quot;HR&quot;, 2011, 25000.0
+2. 122, &quot;Kaushal Jani&quot;, 25, &quot;Male&quot;, &quot;Sales And Marketing&quot;, 2015, 13500.0
+3. 133, &quot;Harshil Nagar&quot;, 29, &quot;Male&quot;, &quot;Infrastructure&quot;, 2012, 18000.0
+4. 144, &quot;Raj Darbar&quot;, 28, &quot;Male&quot;, &quot;Product Development&quot;, 2014, 32500.0
+5. 155, &quot;Nima Roy&quot;, 27, &quot;Female&quot;, &quot;HR&quot;, 2013, 22700.0
+6. 166, &quot;Sid Barot&quot;, 43, &quot;Male&quot;, &quot;Security And Transport&quot;, 2016, 10500.0
+7. 177, &quot;Pruthvi Soni&quot;, 35, &quot;Male&quot;, &quot;Account And Finance&quot;, 2010, 27000.0
+8. 188, &quot;Parth Dabgar&quot;, 31, &quot;Male&quot;, &quot;Product Development&quot;, 2015, 34500.0
+9. 199, &quot;Amelia Zoe&quot;, 24, &quot;Female&quot;, &quot;Sales And Marketing&quot;, 2016, 11500.0
+10. 200, &quot;Ashish Patel&quot;, 38, &quot;Male&quot;, &quot;Security And Transport&quot;, 2015, 11000.5
+11. 211, &quot;Jasna Kaur&quot;, 27, &quot;Female&quot;, &quot;Infrastructure&quot;, 2014, 15700.0
+12. 222, &quot;Aaalap Patel&quot;, 25, &quot;Male&quot;, &quot;Product Development&quot;, 2016, 28200.0
+13. 233, &quot;Jyothi Reddy&quot;, 27, &quot;Female&quot;, &quot;Account And Finance&quot;, 2013, 21300.0
+14. 244, &quot;Divyesh Solanki&quot;, 24, &quot;Male&quot;, &quot;Sales And Marketing&quot;, 2017, 10700.5
+
+15. 255, &quot;Jay Solanki&quot;, 23, &quot;Male&quot;, &quot;Infrastructure&quot;, 2018, 12700.0
+16. 266, &quot;Sanvi Pandey&quot;, 26, &quot;Female&quot;, &quot;Product Development&quot;, 2015, 28900.0
+17. 277, &quot;Kishan Panchal&quot;, 31, &quot;Male&quot;, &quot;Product Development&quot;, 2012, 35700.0
+
+3. Real Time Queries On employeeList
+3.1 How many male and female employees are there in the organization?
+3.2 Print the name of all departments in the organization?
+3.3 What is the average age of male and female employees?
+3.4 Get the details of highest paid employee in the organization?
+3.5 Get the names of all employees who have joined after 2015?
+3.6 Count the number of employees in each department?
+3.7 What is the average salary of each department?
+3.8 Get the details of youngest male employee in the product development department?
+3.9 Who has the most working experience in the organization?
+3.10 How many male and female employees are there in the sales and marketing team?
+3.11 What is the average salary of male and female employees?
+3.12 List down the names of all employees in each department?
+3.13 What is the average salary and total salary of the whole organization?
+3.14 Separate the employees who are younger or equal to 25 years from those employees who are
+older than 25 years.
+3.15 Who is the oldest employee in the organization? What is his age and which department he
+belongs to?
+
+
+Ans : 
+https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/
+https://34codefactory.wordpress.com/2020/10/26/java-8-solving-real-time-queries-using-java-8-features-employee-management-system/
+
+
+
+Let’s take two classes, Employee and Department.
+public class Employee {
+  
+ private String name;
+  
+ private Integer age;
+  
+ private String city;
+  
+ private Department department;
+  
+ public Employee(String name, Integer age, String city, Department
+department) {
+    this.name = name;
+    this.age = age;
+    this.city = city;
+    this.department = department;
+ }
+}
+
+public class Department {
+ 
+ private String departmentName;
+  
+ private Integer noOfEmployees;
+ 
+ public Department(String departmentName, Integer noOfEmployees) {
+      this.departmentName = departmentName;
+      this.noOfEmployees = noOfEmployees;
+ }
+}
+some sample data set as follows. We have four departments and set of employees from those
+departments.
+1. Account, 75
+2. HR, 50
+3. OP, 25
+4. Tech, 150
+employee List
+1. (&quot;David&quot;, 32, &quot;Matara&quot;, account),
+2. (&quot;Brayan&quot;, 25, &quot;Galle&quot;, hr),
+3. (&quot;JoAnne&quot;, 45, &quot;Negombo&quot;, ops),
+4. (&quot;Jake&quot;, 65, &quot;Galle&quot;, hr),
+5. (&quot;Brent&quot;, 55, &quot;Matara&quot;, hr),
+6. (&quot;Allice&quot;, 23, &quot;Matara&quot;, ops),
+7. (&quot;Austin&quot;, 30, &quot;Negombo&quot;, tech),
+8. (&quot;Gerry&quot;, 29, &quot;Matara&quot;, tech),
+
+9. (&quot;Scote&quot;, 20, &quot;Negombo&quot;, ops),
+10. (&quot;Branden&quot;, 32, &quot;Matara&quot;, account),
+11. (&quot;Iflias&quot;, 31, &quot;Galle&quot;, hr));
+1. Find all employees who lives in ‘Matara’ city, sort them by their name and print the names
+of employees.
+2. Find distinct department names that employees work for.
+3. Find the department names that these employees work for, where the number of
+employees in the department is over 50.
+4. Create a comma separate string of department names sorted alphabetically.
+5. Are there any employees from HR Department?
+6. Print all employee’s name who are working for account department.
+7. What is the highest number of of employees in all departments?
+8. Find the department which has the highest number of employees.
+9. The same thing can be done as follows using the max() method.
+10. Find the total number of employees in all the departments.
+11. sorted data in ascending and descending order based on age, city
+
+
+
+Ans : https://www.javacodegeeks.com/2018/07/java-8-stream-examples.html
+
+

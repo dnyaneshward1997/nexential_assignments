@@ -1,0 +1,3 @@
+Q1. display even and odd numbers upto a limit
+Q2. find factorial of a number
+Q3. input numbers into an array find sum and average of elements of an array

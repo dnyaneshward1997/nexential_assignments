@@ -1,0 +1,27 @@
+Q1. Write program to find meta data of a class, field, method, constructor
+
+Q2.
+a)   use the string
+ I would not, could not, in a box. I would not, could not with a fox. I will not eat them in a house. I will not eat them with a mouse. 
+Use the split method to divide the string at each space and store the individual words in an array. 
+Convert it into arraylist
+b) Write a static method to print out each word in a list that has exactly 5 letters from arraylist.
+c) Modify your code to prompt the user to enter the word length for the search.
+d) prints the size of the ArrayList
+e) Reverses the ArrayList
+f) Sorts the ArrayList A in ascending order 
+g) create another array list with integer numbers, get at least 10 integers values from user and add it into the
+arraylist.
+h) Write a static method to find the sum of all the even numbers in an ArrayList.
+i) Sorts the ArrayList A in descending order
+
+Q3. Define a class Emp with the following fields – emp_id, name, salary, gender, department, and email_id. Now create another class EmpList, that has an LinkedList as its data member. In this class, define two methods – addEmp(Emp ob), and deleteEmp(int eid) that adds and removes an Emp object in the list. Also, create methods to display minimum salary, maximum salary, average salary, and search an employee using the given emp_id.
+
+Q4. a)create a collection that uses a hash table for storage
+b)insert duplicates elements and print elements
+c)Append another collections to already existing one
+d)Convert it to a ArrayList
+e)Get Elements By Index from HashSet in Java
+f)Sort HashSet Elements in reverse order
+g)Finding Maximum Element of Java HashSet
+h)Preserve insertion order of Java HashSet elements

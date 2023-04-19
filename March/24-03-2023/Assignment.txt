@@ -1,0 +1,14 @@
+Java Application with MySQL database 
+ 
+  Create table
+  INSERT row into the table 
+  INSERT row getting data from user using scanner
+  INSERT 'n' row into the table 
+  DELETE all rows
+  DELETE row based on condition
+  DELETE row based on getting data from user using scanner
+  UPDATE row based on condition
+  UPDATE row based on  getting data from user using scanner
+  SELECT all rows
+  SELECT row based on condition
+  SELECT row based on  getting data from user using scanner
