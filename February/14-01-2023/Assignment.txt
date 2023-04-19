@@ -1,0 +1,17 @@
+Q1. ThreadGroup Example using all the methods of the class
+
+Q2. print the even and odd numbers using the two threads, use the synchronized block and the notify() method.
+
+Q3. Java Synchronized Method
+
+Q4. synchronized method by using annonymous class
+
+Q5. Synchronized Block Example Using Anonymous Class
+
+Q6. static synchronization
+
+Q7. Example of static synchronization by Using the anonymous class
+
+Q8. Example of Inter Thread Communication
+
+Q9. Example of interrupting a thread

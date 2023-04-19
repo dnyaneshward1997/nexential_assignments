@@ -1,0 +1,19 @@
+Q1. Java OutputStreamWriter
+
+Q2. Java InputStreamReader
+
+Q3. Java PushbackInputStream Class
+
+Q4. Java PushbackReader Class
+
+Q5. Java - PipedWriter
+
+Q6. Java - PipedReader
+
+Q7. Java FilterWriter
+
+Q8. Java FilterReader
+
+Q9. Java FileDescriptor
+
+Q10. Java - RandomAccessFile

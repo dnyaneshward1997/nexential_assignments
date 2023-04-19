@@ -1,0 +1,19 @@
+Q1. super can be used to refer immediate parent class instance variable.
+
+Q2. super can be used to invoke immediate parent class method.
+
+Q3. super() can be used to invoke immediate parent class constructor.
+
+Q4. Calling parameterized constructor from default constructor: using this
+
+Q5. reusing parametrized constructor using this
+
+Q6. this: to pass as an argument in the method
+
+Q7. this: to pass as argument in the constructor call
+
+Q8. this keyword can be used to return current class instance
+
+Q9. Call Parameterized Constructor Using super()
+
+Q10. this: to invoke current class method

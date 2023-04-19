@@ -1,0 +1,52 @@
+Q1. We want to store the information about different
+vehicles. Create a class named Vehicle with two data members named mileage and
+price. Create its two subclasses *Car with data members to store ownership
+cost, warranty (by years), seating capacity, and fuel type (diesel or petrol).
+*Bike with data members to store the number of cylinders, number of gears,
+cooling type(air, liquid, or oil), wheel type(alloys or spokes), and fuel tank
+size(in inches) Make another two subclasses Audi and Ford of
+
+
+Make another two subclasses Audi and Ford of Car,
+each having a data member to store the model type. Next, make two subclasses
+Bajaj and TVS, each having a data member to store the make-type. Now, store and
+print the information of an Audi and a Ford car (i.e. model type, ownership
+cost, warranty, seating capacity, fuel type, mileage, and price.) Do the same
+for a Bajaj and a TVS bike.
+
+
+
+
+
+Q2. We have to calculate the area of a rectangle, a
+square and a circle. Create an abstract class 'Shape' with three abstract
+methods namely 'RectangleArea' taking two parameters, 'SquareArea' and
+'CircleArea' taking one parameter each. The parameters of 'RectangleArea' are
+its length and breadth, that of 'SquareArea' is its side and that of
+'CircleArea' is its radius. Now create another class 'Area' containing all the
+three methods 'RectangleArea', 'SquareArea' and 'CircleArea' for printing the
+
+
+the area of rectangle, square and circle respectively.
+Create an object of class 'Area' and call all the three methods.
+
+Q3. Create a class named 'Member' having the following members:Data members
+1 - Name
+2 - Age
+3 - Phone number
+4 - Address
+5 - Salary
+It also has a method named 'printSalary' which prints the salary of the members.
+Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively. 
+Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
+
+Q4. Create a class named 'Rectangle' with two data members 'length' and 'breadth' and two methods to print the area and perimeter of the rectangle respectively. 
+Its constructor having parameters for length and breadth is used to initialize length and breadth of the rectangle. 
+Let class 'Square' inherit the 'Rectangle' class with its constructor having a parameter for its side (suppose s) calling the constructor of its parent class as 'super(s,s)'.
+Print the area and perimeter of a rectangle and a square.
+
+
+Q5. Create an abstract class 'Bank' with an abstract method 'getBalance'. 
+$100, $150 and $200 are deposited in banks A, B and C respectively. 
+'BankA', 'BankB' and 'BankC' are subclasses of class 'Bank', each having a method named 'getBalance'. 
+Call this method by creating an object of each of the three classes.

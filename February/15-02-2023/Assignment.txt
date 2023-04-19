@@ -1,0 +1,22 @@
+Q1. FileOutputStream
+
+Q2. FileInputStream
+
+Q3. BufferedOutputStream
+
+Q4. BufferedInputStream
+
+Q5. printing the data of two files
+
+Q6. Example that reads the data from two files and writes into another file
+
+Q7. SequenceInputStream example that reads data using enumeration
+
+Q8. Create a File in Java :Using File.createNewFile() method
+
+Q9. Using FileOutputStream class
+Q10. Using File.createFile() method
+
+Q11. delete a file in Java : Using File.delete() method
+
+Q12. Using File.deleteOnExit() method

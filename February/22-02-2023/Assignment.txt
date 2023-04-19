@@ -1,0 +1,7 @@
+Q1. MetaData of class
+
+Q2. MetaData of variable
+
+Q3. MetaData of method
+
+Q4. MetaData of constructors
