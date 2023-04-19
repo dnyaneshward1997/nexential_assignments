@@ -1,0 +1,39 @@
+Q1.
+
+display and find sum of all even numbers upto a limit
+
+Q2.
+
+program to print all even numbers from 1 to n (A) using while loop (B) using do while
+
+Q3.
+
+count number of digits in an integer
+
+Q4.
+
+Java program to find first and last digit of a number
+
+Q5.
+
+sum of digits of a number
+
+Q6.
+
+program to find reverse of a number
+
+Q7.
+
+program to check whether a number is palindrome or not
+
+Q8.
+
+program to count frequency of digits in an integer
+
+Q9.
+
+program to find factorial of a number
+
+Q10.
+
+program to find Armstrong numbers between 1 to n

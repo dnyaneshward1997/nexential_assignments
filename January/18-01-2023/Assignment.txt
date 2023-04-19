@@ -1,0 +1,11 @@
+Q1. Java Program to illustrate how to define a class and variables, also assign values to variables. use only one class
+
+Q2. Java Program to demonstrate having the main method in another class,assign values to variables using multiple objects
+
+Q3. Write a java program with methods with no arguments and no return a value
+
+Q4.Write a java program with methods with no arguments and return a value
+
+Q5.Write a java program with methods with arguments and no return a value
+
+Q6.Write a java program with methods with arguments and return a value

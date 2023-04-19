@@ -1,0 +1,5 @@
+Q1. Object as a Parameter in constructor and method
+
+Q2. Static keyword
+
+Q3. access control

@@ -1,0 +1,21 @@
+Q1. Write a Java program to remove duplicate
+elements from an array.
+
+
+Q2. Write a Java program to remove a specific
+element from an array.
+
+
+Q3. Write a Java program to insert an element
+(specific position) into an array.
+
+
+Q4. Write a Java program to find the duplicate values of an array of string values.
+
+Q5. Write a Java program to find the common elements between two arrays of integers.
+
+Q6. Write a Java program to add two matrices of the same size.
+
+Q7.Write a Java program to sort a numeric array and a string array.
+
+Q8.Write a Java program to multiply two matrices.

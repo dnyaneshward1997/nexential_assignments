@@ -1,0 +1,75 @@
+Q1. Write a program to print the area of a
+rectangle by creating a class named 'Area' having two methods. First method
+named as 'setDim' takes length and breadth of rectangle as parameters and the
+second method named as 'getArea' returns the area of the rectangle. Length and
+breadth of rectangle are entered through keyboard.
+
+
+
+
+
+Q2. Write a program to print the area of two
+rectangles having sides (4,5) and (5,8) respectively by creating a class named
+'Rectangle' with a method named 'Area' which returns the area and length and
+breadth passed as parameters to method
+
+
+
+
+
+Q3. write a program to implement calculator using
+different methods with return value
+
+
+
+
+
+Q4. Write a program that would print the
+information (name, year of joining, salary, address) of three employees by
+creating a class named 'Employee' by creating different objects
+The output should be as follows: 
+Name       Year
+of joining        Address 
+Robert         1994                       64C-WallsStreat 
+Sam             2000                       68D-WallsStreat 
+John           1999                        26B- WallsStreat
+
+
+
+
+
+Q4. Write a program by creating an 'Employee' class having the following
+methods and print the final salary.
+
+1 - 'getInfo()' which takes the salary, number of
+hours of work per day of employee as parameter
+
+2 - 'AddSal()' which adds $10 to salary of the
+employee if it is less than $500.
+
+3 - 'AddWork()' which adds $5 to salary of
+employee if the number of hours of work per day is more than 6 hours.
+
+
+
+
+Q5. create class Account with a method called debit that withdraws
+money from an Account. Ensure that the debit amount does not exceed the
+Account’s balance. If it does, the balance should be left unchanged and the method should print a message
+indicating ―Debit amount exceeded account balance.
+
+
+
+
+Q6. create a class named date that has a method
+to convert days into year, week and days, get days as input 
+
+Sample output
+
+days = 1329
+
+Years: 3 
+
+Weeks: 33 
+
+Days: 3

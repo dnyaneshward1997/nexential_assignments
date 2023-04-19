@@ -1,0 +1,12 @@
+Q1. Assign and print the roll number, phone number and address of two students having names "Sam" and "John" respectively by creating two objects of class 'Student' with constructor
+
+
+Q2. Write a program to print the area and perimeter of a triangle having two sides creating a class named 'Triangle' with constructor. take the values as input
+
+Q3. Write a program by creating an 'Employee' class having the following methods and print the final salary. 'getInfo() which takes the salary, number of hours of work per day of employee as parameter
+AddSal()' which adds $10 to salary of the employee if it is less than $500.
+
+AddWork() which adds $5 to salary of employee if the number of hours of work per day is more than 6 hours.
+
+Q4. Design a class named Circle. Construct three circle objects with radius 2.0, 12, and 24 and displays the radius and area of each.
+A getArea() function is used to return the area of circle. Now implement the class.
