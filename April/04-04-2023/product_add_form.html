@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Product</title>
+<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js" ></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+    $("#product_form").submit(function (event) {
+        event.preventDefault();
+
+        var product = {}
+        
+        product["name"] = $("#name").val();
+        product["price"] = $("#price").val();
+
+        $("#bth_submit").prop("disabled", true);
+
+        $.ajax({
+            type: "POST",
+            contentType: "application/json",
+            url: "http://localhost:8080/product",
+            data: JSON.stringify(product),
+            dataType: 'json',
+            cache: false,
+            timeout: 600000,
+            success: function (data) {
+
+                var json = JSON.stringify(data, null, 4);
+                $('#feedback').html(json);
+
+                $("#bth_submit").prop("disabled", false);
+
+            },
+            error: function (e) {
+                var json = e.responseText;
+                $('#feedback').html(json);
+                $("#bth_submit").prop("disabled", false);
+            }
+        });
+    		
+        
+    });
+
+});
+
+</script>
+
+</head>
+<body>
+    <div style="border: 2px solid black; text-align: center;">
+        <h1 style="color:crimson; margin-top: 50px;">GADA  &nbsp; ELECTRONICS</h1>
+		 
+        <div id="feedback"></div><br>
+            <form id="product_form">
+            	<div>
+                    <label >Product Name:</label>
+                    <input type="text" id="name"/>
+                </div><br><br>
+
+                <div>
+                    <label >Product Compnay:</label>
+                    <input type="text" id="name"/>
+                </div><br><br>
+
+
+				<div>
+                    <label >Product Price:</label>
+                    <input type="text" id="price"/>
+                </div><br><br>
+                   
+                <div >
+                    <button type="submit" id="bth_submit" style="margin-left: 50px; ">Add Product</button>
+                </div>
+
+                <br> <br> <a href="index.html" style="margin-bottom: 50px;">Back to Home page</a> <br> <br> <br> <br>
+           
+            </form>
+	    </div>
+    </div>
+    
+</body>
+</html>

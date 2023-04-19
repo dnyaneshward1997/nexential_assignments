@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product List</title>
+<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+      var games14 = document
+     .getElementById('product_tbody')
+    .innerText
+    .match(/2014/g)
+    .length;
+
+console.log('Games made in 2014:', games14);
+      </script>
+</head>
+
+<body>
+	<div style="border: 2px solid black; text-align: center;">
+		<h1 style="color: crimson; margin-top: 50px;">GADA &nbsp;
+			ELECTRONICS</h1>
+		<br>
+
+		<h1 style="color: black;">Product &nbsp;List</h1>
+		<br>
+
+		<div id="productsJson" style="text-align: center">
+
+			<table id="products" style="width: 90%" border="1px solid black" align="center">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Product Name</th>
+						<th>Price</th>
+					</tr>
+				</thead>
+				<tbody id="product_tbody">
+					<tr class="laptop"><td class="title">10</td><td>Laptop</td><td>25000</td></tr>
+					<tr class="mobile"><td class="title">20</td><td>Mobile</td><td>5000</td></tr>
+
+
+
+				</tbody>
+			</table>
+			
+		
+
+
+		</div>
+		<br> <br>
+		<br> <br> <a href="index.html">Back to Home page</a> <br>
+		<br>
+	</div>
+	<br>
+	<br>
+
+</body>
+</html>
