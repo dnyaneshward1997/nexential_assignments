@@ -1,0 +1,13 @@
+Q1. 
+
+Write a program to check if a year is leap year or not.If a year is divisible by 4 then it is leap year but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400.
+
+
+Q2. Ask user to enter age, sex ( M or F ), marital status ( Y or N ) and then using following rules print their place of service.if employee is female, then she will work only in urban areas.
+if employee is a male and age is in between 20 to 40 then he may work in anywhere
+
+if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
+
+And any other input of age should print "ERROR".
+
+Q3.  A 4 digit number is entered through keyboard. Write a program to print a new number with digits reversed as of orignal one. E.g.-INPUT : 1234        OUTPUT : 4321INPUT : 5982        OUTPUT : 2895

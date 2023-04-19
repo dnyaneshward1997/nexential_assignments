@@ -1,0 +1,12 @@
+Q1. King’s Island needs a program for its admission booths. When visitors to the park come up to the booth to purchase their tickets, the worker uses this program to figure out how much to charge them. You will write this program. 
+
+In the first version of the program, there is one ticket price of $30.00. Senior citizens (age ≥ 65) are given a 50% discount.
+Input the user’s age, compute the price of the ticket and output the result
+The park wants to add further alterations to ticket costs. Children under 5 (less than 5, not less than or equal to) are free. 
+Ticket prices are now $40 unless the person is from other country in which case the tickets are $30. 
+Senior citizens still receive a 50% discount regardless of their county of residence. 
+There are two input parameters now, one for age and one for county. For the county, input this as a String
+Calculate and output the ticket price. Ticket prices should be either 0, $15, $20, $30 or $40 depending on the person’s age and location.
+We have two additional changes to make to the program. 
+The first is that we want to ensure that the user’s age is valid. A valid age is anything > 0. Use an if statement that will test to see if age <= 0 and if so, output an error message that it is an invalid age. Otherwise, continue with the remainder of your code.
+Second, we want to give discounts to people from other counties as follows. Children under 14 from other County get an 18% discount (over the base price of $40) and senior citizens (>= 65) get an additional 7.5% discount over their senior citizen discount.

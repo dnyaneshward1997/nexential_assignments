@@ -1,0 +1,52 @@
+Q1. 
+
+Write a program to convert specified days into years, weeks and days.
+
+Q2. Write a program that accepts two item’s weight (floating points' values ) and number of purchase (floating points' values) and calculate the average value of the items.
+
+
+Q3. Write a program that accepts an employee's ID, total worked hours of a month and the amount he received per hour. Print the employee's ID and salary (with two decimal places) of a particular month.
+
+
+Q4. Write a program to calculate a bike’s average consumption from the given total distance (integer value) traveled (in km) and spent fuel (in liters, float number – 2 decimal point). 
+Input total distance in km: 350
+Input total fuel spent in liters: 5
+Expected Output:
+Average consumption (km/lt) 70.000
+
+
+Q5. Write a program to read an amount (integer value) and break the amount into smallest possible number of bank notes.
+Input the amount: 375
+Expected Output:
+There are:
+3 Note(s) of 100.00
+1 Note(s) of 50.00
+1 Note(s) of 20.00
+0 Note(s) of 10.00
+1 Note(s) of 5.00
+0 Note(s) of 2.00
+0 Note(s) of 1.00
+
+
+Q6. Write a program to convert a given integer (in seconds) to hours, minutes and seconds.
+Input seconds: 25300
+Expected Output:
+There are:
+H:M:S - 7:1:40
+
+
+Q7. program to convert temperature from degree Celsius to Fahrenheit
+fahrenheit = (celsius * 9 / 5) + 32
+
+
+Q8. program to convert temperature from degree Fahrenheit to Celsius
+celsius = (fahrenheit - 32) * 5 / 9
+
+
+Q9. program to calculate Simple Interest
+Simple interest formula is given by.
+Simple interest SI = (principle * time * rate) / 100
+Where,
+P is the principle amount
+T is the time and
+R is the rate
